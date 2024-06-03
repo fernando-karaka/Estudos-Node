@@ -1,0 +1,17 @@
+// Desafio - Adicionando elementos
+
+// Um professor acidentalmente passou apenas 3 das 4 notas no sistema para um aluno: 10, 6 e 8
+
+// Para corrigir, adicione a nota 7 e fala o cálculo de média correta
+
+const notasDesafio = [10, 6, 8];
+
+// o Push "adiciona" um elemento a mais ao Array, mesmo ela sendo uma var const
+
+notasDesafio.push(7);
+
+console.log(notasDesafio);
+
+const mediaDesafio = (notasDesafio[0] + notasDesafio[1] + notasDesafio[2] + notasDesafio[3]) / notasDesafio.length;
+
+console.log(mediaDesafio);
